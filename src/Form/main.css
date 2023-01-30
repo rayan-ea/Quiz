@@ -1,0 +1,35 @@
+.time-container {
+  display: flex;
+  justify-content: space-between;
+}
+.timer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+}
+
+.next-button-container {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 100%;
+}
+.next-button {
+  background: #8692a6;
+  border-radius: 30px;
+  width: 212px;
+  height: 64px;
+  left: 1000px;
+  top: 500px;
+  border: 0;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 55px;
+}

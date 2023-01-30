@@ -1,0 +1,68 @@
+.line-container {
+  display: flex;
+  flex-direction: column;
+}
+.dynamic-div {
+  width: 500px;
+  margin-left: 500px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+
+  color: #696f79;
+}
+.static-div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+}
+.answer {
+  margin-bottom: 20px;
+}
+.answer-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #696f79;
+  margin-bottom: 20px;
+}
+.checkbox-round {
+  margin-left: 20px;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: black;
+}
+
+.label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 50px;
+  color: #696f79;
+}
